@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="maths.css">
+    <link href="Fven.jpeg" type="x-icon" rel="shortcut icon">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">Cute Math Quiz Game</h1>
+        
+        <div class="question-container">
+            <p id="question">What is 5 + 3?</p>
+        </div>
+
+        <input type="number" id="answer" class="answer-input" placeholder="Your answer" />
+        <button id="submit" class="submit-btn">Submit Answer</button>
+
+        <div id="status" class="status"></div>
+        
+        <div class="score-container">
+            <p>Your Score: <span id="score">0</span></p>
+        </div>
+
+        <button id="next-question" class="next-btn" style="display: none;">Next Question</button>
+    </div>
+
+    <script src="maths.jss"></script>
+</body>
+</html>
